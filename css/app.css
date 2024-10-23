@@ -1,14 +1,52 @@
 /* GENERAL */
-/* ul,
-ol {
+html body {
+    background-color: azure;
+}
+body ul,
+body ol {
     list-style: none;
 }
 
-a {
+body a {
     color: currentColor;
     text-decoration: none;
 }
 
-img {
+body img {
     max-width: 100%;
-} */
+}
+
+
+/* HEADER */
+.navbar-header {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bx {
+    scale: 2;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.main-menu li {
+    box-shadow: 1px 1px 3px black;
+    background-color: rgb(240, 240, 240);
+    padding: 6px 16px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.main-menu li:hover {
+    background-color: rgb(195, 38, 54);
+    box-shadow: 0 0 1px black;
+}
+
+/* MAIN */
+.form-km-age {
+    background-color: rgb(220, 53, 69);
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
