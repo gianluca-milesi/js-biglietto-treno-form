@@ -1,52 +1,52 @@
 /* GENERAL */
-html body {
-    background-color: azure;
-}
-body ul,
-body ol {
+ul,
+ol {
     list-style: none;
 }
 
-body a {
+li a:not(.link-underline-light) {
     color: currentColor;
     text-decoration: none;
 }
 
-body img {
+img {
     max-width: 100%;
+    display: block;
 }
 
-
-/* HEADER */
-.navbar-header {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.bx {
-    scale: 2;
-    margin-left: 10px;
-    border: 1px solid white;
+input {
     border-radius: 10px;
-    padding: 2px;
+    border: 0;
 }
 
-.main-menu li {
-    box-shadow: 1px 1px 3px black;
-    background-color: rgb(240, 240, 240);
-    padding: 6px 16px;
+header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* LAYOUT */
+form>.container {
+    max-width: 400px;
+}
+
+.row {
+    padding: 40px;
     border-radius: 10px;
-    transition: 0.2s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.main-menu li:hover {
-    background-color: rgb(195, 38, 54);
-    box-shadow: 0 0 1px black;
-}
 
 /* MAIN */
-.form-km-age {
-    background-color: rgb(220, 53, 69);
-    border: 3px solid white;
-    border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+.ticket .container {
+    background-image: url(../img/bg-ticket.avif);
+}
+
+.col-3 .card {
+    box-shadow: none;
+    border: none;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
 }
